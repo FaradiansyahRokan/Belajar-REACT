@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Intro from './components/intro';
 
 
+
 function App() {
   const [getNavbarValue , setNavbarValue] =useState('');
 
@@ -22,5 +23,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
